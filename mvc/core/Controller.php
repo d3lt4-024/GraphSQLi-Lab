@@ -34,7 +34,7 @@ class Controller
 
     function SetLevel($level)
     {
-        setcookie('lab_level', $level, null, '/', null, true, true);
+        setcookie('lab_level', $level, null, '/', null, false, true);
         $_COOKIE['lab_level'] = $level;
     }
 
