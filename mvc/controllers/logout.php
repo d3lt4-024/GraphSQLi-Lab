@@ -10,7 +10,7 @@ class logout extends Controller
     function index()
     {
         session_destroy();
-        setcookie("lab_level", "", time() - 3600, "/", true, true);
+        setcookie("lab_level", "", time() - 3600, "/", false, true);
         header("location: /");
     }
 }
