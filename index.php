@@ -1,7 +1,6 @@
 <?php
 const GRAPHSQLI_LAB_ROOT = '';
 ini_set('session.cookie_httponly', 1); //set http only flag for cookie
-ini_set('session.cookie_secure', 1); //set secure flag for cookie
 //Not show error
 ini_set('error_reporting', 0);
 ini_set('display_errors', 0);
